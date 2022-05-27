@@ -177,7 +177,7 @@
 
 #address,
 #about-location {
-  max-width: 30%;
+  max-width: 40%;
 }
 
 #address {
@@ -298,6 +298,11 @@
   margin-bottom: 0.5em;
 }
 
+#footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+
 #footer p:nth-child(2) {
   margin-bottom: 1em;
   font-size: 1.2em;
@@ -305,16 +310,6 @@
 
 #footer span {
   font-weight: bold;
-}
-
-#footer a{
-  text-decoration: none;
-}
-
-#footer i{
-  font-size: 25px;
-  display: inline-block;
-  color: var(--primary);
 }
 
 footer2 {
