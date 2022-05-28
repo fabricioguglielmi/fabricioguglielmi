@@ -39,19 +39,19 @@
         <form action="https://formsubmit.co/advfabricioguglielmi@hotmail.com" method="POST">
           <div class="form-group">
             <label for="name">Nome</label>
-            <input type="text" placeholder="Digite seu nome" required />
+            <input type="text" placeholder="Digite seu nome" />
           </div>
           <div class="form-group">
             <label for="email">E-mail</label>
-            <input type="email" placeholder="Digite seu melhor e-mail" required />
+            <input type="email" placeholder="Digite seu melhor e-mail" />
           </div>
           <div class="form-group">
             <label for="phone">Telefone</label>
-            <input type="text" placeholder="Número de Whatsapp" required />
+            <input type="text" placeholder="Número de Whatsapp" />
           </div>
           <div class="form-group">
             <label for="interest">Principal interesse</label>
-            <select name="interest" required>
+            <select name="interest">
               <option value="" disabled selected>Selecione</option>
               <option value="apartment">Direito Civil</option>
               <option value="house">Direito Penal</option>
@@ -59,7 +59,7 @@
               <option value="garden">Direito de Família</option>
               <option value="other">Outros assuntos</option>
             </select>
-            <textarea name="msg" id="msg" placeholder="Digite sua mensagem:" required></textarea>
+            <textarea name="msg" id="msg" placeholder="Digite sua mensagem:"></textarea>
           </div>
           <input type="submit" class="btn" value="Quero uma consulta" />
           <input type="hidden" name="_next" value="https://fabricioguglielmi.vercel.app">
@@ -117,17 +117,18 @@
         <img src="img/tribunal.jpg" alt="" />
         <div class="detail-description">
           <h3>Conheça um pouco do nosso trabalho</h3>
+          <p>“O advogado é indispensável à administração da justiça.” Art. 133 Constituição Federal de 1988</p>
         </div>
       </div>
       <div class="detail" id="detail-2">
         <div class="detail-description">
           <h3>Direito Penal</h3>
           <ul>
-            <li>Acompanhamento de prisão</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
+            <li>Acompanhamento no processo penal</li>
+            <li>Atuação em delegacias</li>
+            <li>Lei de drogas</li>
+            <li>Crime de trânsito</li>
+            <li>Lei de armas</li>
           </ul>
         </div>
         <img src="img/penal3.webp" alt="" />
@@ -137,12 +138,10 @@
         <div class="detail-description">
           <h3>Direito Civil</h3>
           <ul>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
+            <li>Contratos</li>
+            <li>Ação de reparação de danos</li>
+            <li>Ações imobiliárias</li>
+            <li>Ações de manutenção e reintegração de posse</li>
           </ul>
         </div>
       </div>
@@ -150,11 +149,10 @@
         <div class="detail-description">
           <h3>Direito do Consumidor</h3>
           <ul>
-            <li>loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
+            <li>Direitos básicos do consumidor</li>
+            <li>Responsabilidade pelo fato do produto e do serviço</li>
+            <li>Responsabilidade pelo vício do produto e do serviço</li>
+            <li>Práticas abusivas</li>
           </ul>
         </div>
         <img src="img/consumidor2.jpg" alt="" />
@@ -164,23 +162,46 @@
         <div class="detail-description">
           <h3>Direito de Família</h3>
           <ul>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
-            <li>Loren ipsum</li>
+            <li>Ação de alimentos</li>
+            <li>Ação negatória de paternidade</li>
+            <li>Reconhecimento e extinção da união estável</li>
+            <li>Ação de guarda</li>
           </ul>
         </div>
       </div>
     </section>
+
+    <section id="sobre" class="perfil-container">
+      <div class="container">
+        <div class="perfil-wraper">
+          <div class="perfil-wraper2">
+          <div class="img-perfil"></div><!--img-perfil-->
+          <div class="texto-perfil">
+            <h2>Dr. Fabrício Guglielmi</h2>
+            <h2>OAB/RS 123.726</h2>
+            <p>
+              Bacharel em Direito pela Ulbra Gravataí RS - 2019.<br/>
+              Advogado registrado na OAB/RS 123.726 - Subseção Gravataí.<br/>
+              Pós-graduado em Direito Público pela LEGALE - 2021.<br/>
+              Pós-graduando em Direito Civil e Processo Civil pela LEGALE com previsão de conclusão no final de 2022.<br/>
+              Membro da Comissão de Criminalistas da OAB/RS Subseção Gravataí/RS.<br/>
+            </p>
+          </div><!--texto-perfil-->
+        </div><!--perfil-wraper2-->
+        </div><!--perfil-wraper-->
+      </div><!--container-->
+    </section><!--perfil-container-->
+
     <section id="cta">
       <h3>Solicite uma consulta:</h3>
       <a href="#subscription-form">
       <button class="btn">Solicitar consulta</button></a>
     </section>
+
+    <button onclick="backToTop()" id="btntop">Topo</button>
+
     <footer id="footer">
-      <h3>Dr. Fabrício Guglielmi Advocacia</h3>
+      <h3>Fabrício Guglielmi Advocacia</h3>
       <h4>OAB/RS: 123.726</h4>
       <p>Gravataí RS</p><br/>
       <p><span>Entre em contato:</span> advfabricioguglielmi@hotmail.com</p>
@@ -196,5 +217,11 @@
       <p>&copy; 2022 - Dr.Fabrício Guglielmi Advocacia | Desenvolvido por: <a href="https://fabiosouttodev.vercel.app" target="_blank">Fabio Soutto Dev</a></p>
     </footer2>
     <script src="https://kit.fontawesome.com/3ed642bbbb.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?1=pt_BR&phone=5551982182199" style="position:fixed;width:60px;height:60px;bottom:60px;right:10px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>
   </body>
 </html>
