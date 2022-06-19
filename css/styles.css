@@ -402,6 +402,11 @@ footer2 p{
 
 footer2 p > a{
   text-decoration: none;
+  color: white;
+}
+
+footer2 p > a:hover{
+    color: #ffcc00;
 }
 
 /* =============== MOBILE ============= */
