@@ -363,7 +363,6 @@ section.perfil-container .texto-perfil p{
 #footer {
   text-align: center;
   color: var(--secondary);
-  background: wheat;
   height: 350px;
   display: flex;
   flex-direction: column;
